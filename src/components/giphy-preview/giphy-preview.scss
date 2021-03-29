@@ -1,0 +1,17 @@
+.giphy-preview {
+  margin-bottom: var(--spacing-medium);
+
+  &__title {
+    font-size: var(--font-size-primary);
+    margin-bottom: var(--spacing-medium);
+  }
+
+  &__image {
+    max-width: 500px;
+    max-height: 300px;
+  }
+
+  &__actions {
+    margin-top: var(--spacing-medium);
+  }
+}

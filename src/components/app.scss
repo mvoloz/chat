@@ -1,0 +1,87 @@
+:root {
+  --theme-color-primary: #000;
+  --theme-color-secondary: #969696;
+  --theme-color-secondary-darker: #959595;
+  --theme-color-secondary-lighter: #cacaca;
+  --theme-color-secondary-lightest: #ced4da;
+  --theme-color-accent: #fff;
+
+  --text-color-primary: #000;
+  --text-color-secondary: #969696;
+  --text-color-accent: var(--theme-color-accent);
+
+  --font-family: Arial, Helvetica, sans-serif;
+  --font-weight-primary: 400;
+  --font-weight-mid: 500;
+
+  --font-weight-heavy: 600;
+
+  --font-size-baseline: 16px;
+
+  --font-size-primary: 14px;
+  --font-size-secondary: 12px;
+
+  --spacing-default: 24px;
+  --spacing-medium: 8px;
+  --spacing-small: 4px;
+
+  --default-line-spacing: var(--spacing-small);
+  --input-height: 40px;
+
+  --button-background-color: var(--theme-color-secondary-lighter);
+  --button-background-color-active: #ff8200;
+  --button-background-color-active-hover: #ff7300;
+  --button-default-width: 100px;
+  --button-default-height: var(--input-height);
+
+  --default-border-radius: var(--spacing-medium);
+
+  --app-width: 600px;
+  --app-max-height: 800px;
+
+  --max-image-width: 400px;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-size: var(--font-size-baseline);
+  color: var(--text-color-primary);
+  font-family: var(--font-family);
+  line-height: 1;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-bottom: var(--spacing-medium);
+}
+
+input[type='text'] {
+  padding: 12px 6px;
+  height: var(--input-height);
+  display: flex;
+  width: 100%;
+  font-size: var(--font-size-primary);
+  font-weight: var(--font-weight-primary);
+  background-color: var(--theme-color-accent);
+  border: 1px solid var(--theme-color-secondary-lightest);
+  border-radius: var(--default-border-radius);
+  box-sizing: border-box;
+}

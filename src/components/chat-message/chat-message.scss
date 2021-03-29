@@ -1,0 +1,17 @@
+.chat-message {
+  display: flex;
+  margin-top: 24px;
+
+  &__with-previous {
+    margin-top: 0;
+    margin-left: 60px;
+  }
+
+  &__body {
+    font-size: var(--font-size-primary);
+
+    img {
+      max-width: var(--max-image-width);
+    }
+  }
+}

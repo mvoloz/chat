@@ -1,0 +1,17 @@
+.chat-messages {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    min-height: var(--app-max-height);
+    max-height: var(--app-max-height);
+    height: 100%;
+    margin-bottom: var(--spacing-default);
+    overflow-x: auto;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}

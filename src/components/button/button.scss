@@ -1,0 +1,28 @@
+.button {
+  width: 100px;
+  font-size: var(--font-size-primary);
+  font-weight: var(--font-weight-heavy);
+  height: var(--input-height);
+  padding: var(--spacing-medium);
+  border-radius: var(--default-border-radius);
+  margin-right: var(--spacing-medium);
+  border: none;
+
+  &__default {
+    color: var(--text-color-primary);
+    background-color: var(--theme-color-secondary-lightest);
+
+    &:hover {
+      background-color: var(--theme-color-secondary-lighter);
+    }
+  }
+
+  &__primary {
+    color: var(--text-color-accent);
+    background-color: var(--button-background-color-active);
+
+    &:hover {
+      background-color: var(--button-background-color-active-hover);
+    }
+  }
+}

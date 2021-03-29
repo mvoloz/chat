@@ -1,0 +1,33 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  height: 100%;
+  justify-content: center;
+
+  &__heading {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 32px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-size: var(--font-size-primary);
+      margin-bottom: var(--default-line-spacing);
+      font-weight: var(--font-weight-heavy);
+    }
+
+    input[type='text'] {
+      margin-bottom: var(--input-height);
+    }
+
+    button {
+      align-self: flex-end;
+      margin-right: 0;
+    }
+  }
+}

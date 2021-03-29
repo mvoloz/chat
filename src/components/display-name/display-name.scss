@@ -1,0 +1,16 @@
+.display-name {
+  display: flex;
+  margin-bottom: var(--spacing-small);
+  align-items: baseline;
+
+  &__username {
+    font-size: var(--font-size-primary);
+    font-weight: var(--font-weight-heavy);
+  }
+
+  &__timestamp {
+    font-size: var(--font-size-secondary);
+    color: var(--theme-color-secondary-lighter);
+    margin-left: 10px;
+  }
+}
