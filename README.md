@@ -1,5 +1,9 @@
 # Chat App
 
+
+![image](https://user-images.githubusercontent.com/4227077/112848814-7ba6c600-9076-11eb-91f9-0a1d66d48619.png)
+
+
 ## Installation
 
 Development
